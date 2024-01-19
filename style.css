@@ -1,0 +1,68 @@
+* {
+font-family: 'Figtree', sans-serif;
+color: hsl(0, 0%, 7%);
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: hsl(47, 88%, 63%);
+height: 100vh;
+}
+
+.card {
+background-color: hsl(0, 0%, 100%);
+padding: 20px;
+border-radius: 20px;
+max-width: 20rem;
+border: 1px solid hsl(0, 0%, 7%);
+box-shadow: 5px 5px hsl(0, 0%, 7%);
+}
+
+.image {
+border-radius: 17px;
+max-width: 100%;
+}
+
+.topic {
+background-color: hsl(47, 88%, 63%);
+border-radius: 5px;
+padding: 5px 10px;
+font-weight: 800;
+margin-top: 20px;
+text-align: center;
+width: 5rem;
+}
+
+.published {
+font-size: 0.813rem;
+padding-top: 15px;
+}
+
+.header {font-size: 23px;
+font-weight: 800;
+padding-top: 15px;
+}
+
+.description p {
+font-size: 1rem;
+color: hsl(0, 0%, 50%);
+padding-right: ;
+}
+
+.user {
+display: flex;
+align-items: center;
+padding-top: 15px;
+}
+
+.user .name {
+padding-left: 10px;
+font-weight: 800;
+}
+
+.user-image {
+width: 2rem;
+height: auto;
+}
